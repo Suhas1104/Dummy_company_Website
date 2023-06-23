@@ -223,11 +223,19 @@ section.testimonials .third img{
   margin-left: 990px;
   margin-top: 42px;
 }
-.test{
-  background-color: #000000;
+section.contact{
+  height:517px;
   width: 100%;
-  height: 400px;
+background-image: url(assets/contactbg.png);
+background-repeat: no-repeat;
+background-size: cover;
 }
+form#con{
+ position: absolute;
+  margin-left: 10%;
+  margin-top:8%;
+}
+
  .feedback-input {
   color:rgb(10, 10, 10);
   font-family: Helvetica, Arial, sans-serif;
@@ -235,17 +243,17 @@ section.testimonials .third img{
   font-size: 18px;
   border-radius: 5px;
   line-height: 22px;
-
-  border:2px solid #CC6666;
+  border:2px solid #000000;
   transition: all 0.3s;
   padding: 13px;
   margin-bottom: 15px;
-  width:30%;
-  box-sizing: border-box;
+  width:200%;
+  
   outline:0;
+ 
 }
 
-.feedback-input:focus { border:2px solid #CC4949; }
+.feedback-input:focus { border:2px solid #d70909; }
 
 textarea {
   height: 150px;
@@ -255,8 +263,8 @@ textarea {
 
 [type="submit"] {
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
-  width: 30%;
-  background:#CC6666;
+  width: 200%;
+  background:#000000;
   border-radius:5px;
   border:0;
   cursor:pointer;
@@ -269,3 +277,39 @@ textarea {
   font-weight:700;
 }
 [type="submit"]:hover { background:#CC4949; }
+section.contact .right p{
+  position: absolute;
+  color: #FFF;
+  margin-left: 11%;
+  margin-top: 3%;
+  text-align: center;
+  font-size: 40px;
+  font-family: JejuGothic;
+}
+footer{ 
+  background-color: #000000;
+  width: 100%;
+  height: 258px
+}
+.icons ul {
+    display: flex;
+  
+    align-items:right;
+    gap: 231px;
+    list-style: none;
+    
+  }
+.icons ul li{
+  margin-top: 10%;
+  margin-left:15% ;
+}
+footer p{
+  position: absolute;
+  margin-left: 30%;
+  margin-top: 3%;
+  color: #4A9B9B;
+  text-align: center;
+  font-size: 40px;
+  font-family: JejuGothic;
+  
+}

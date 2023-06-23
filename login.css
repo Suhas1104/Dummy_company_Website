@@ -9,26 +9,86 @@
     
     
 }
-
+nav{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    z-index: 100;
+    transition: all 500ms ease;
+    background: #000000;
+  }
+  nav ul {
+      display: flex;
+      margin-right: 113px;
+      align-items:right;
+      gap: 29px;
+      list-style: none;
+      margin-top: 10px;
+    }
+    nav ul li a {
+      font-family: 'JejuGothic';
+      font-weight: 400;
+      font-size: 30px;
+      color: #F8EDE7;
+      text-decoration: none;
+    }
+  .sign img{
+    width: 99px;
+    height: 33px;
+    left: 1168px;
+  }
+  nav .logo img{
+    display: flex;
+    position: relative;
+    width: 105.56px;
+    height: 100px;
+    left: 45px;
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+  nav p{
+    display: flex;
+  position:fixed ;
+  left: 180px;
+  top: 15px;
+  font-family: 'JejuGothic';
+  font-weight: 400;
+  font-size: 30px;
+  color: #F8EDE7;
+  }
 
 .wrapper{
- position: fixed;
-width: 100%;
-height: 100%;
-background: url('assets/logocolor.png'), linear-gradient(180deg, #008080 0%, #EBFED4 100%);;
-background-repeat: no-repeat;
-background-position: top 600px,center;
 
-background-size: cover;
-}
-.wrapper::before{
-    background: linear-gradient(180deg, #008080 0%, #EBFED4 100%);
-    width: 100%;
-    height: 100%;
+width: 100%;
+height: 100vh;
+background:#008080
+
 }
 .wrapper input{
+    margin: 0;
+    padding-top:5px;
+  padding-bottom:5px;
+    position: absolute;
+    border-width: 3px;
+    border-radius: 7px;
     width: 394px;
     height: 40px;
-    left: 523px;
-    top: 377px;
+    
+}
+[type="submit"]:hover { background:#0cec2e; }
+[type="submit"]{
+    background: black;
+    color: white;
+}
+section.contact .right p{
+  position: absolute;
+  color: #FFF;
+  margin-left: 11%;
+  margin-top: 3%;
+  text-align: center;
+  font-size: 40px;
+  font-family: JejuGothic;
 }
