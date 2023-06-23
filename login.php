@@ -1,6 +1,8 @@
 <html>
 <body>
+
     <?php
+    require('session.php');
 $servername = "localhost";
 $username = "root";
 $password = "";
@@ -21,26 +23,28 @@ else if (empty($uname)) {
     echo '<script>alert("password is required")</script>';
     header("refresh:2;url=login.html");
 }
-
-
-
+else{
 $db = mysqli_connect($servername, $username, $password, $dbname);
 if (!$db) {
     die("Connection failed: " . mysqli_connect_error());
 }
-$sql="SELECT * FROM cred WHERE email='$uname' AND pass='$pass'";
+$sql="SELECT * FROM auth WHERE uname='$uname' AND pass='$pass'";
 $result = $db->query($sql);
-if ($result){
-    if ( $result->num_rows > 0){
-    echo"success";
-}
-else 
-echo"failed";
-}
-else
-echo"failed";
 
+    if ( $result->num_rows > 0){
+        $_SESSION['name']  = $uname;
+       
+        echo"<script>alert('logged in')</script>";
+    header("refresh:2;url=index.php");
+}
+else {
+    echo"<script>alert('failed try again')</script>";
 header("refresh:2;url=login.html");
+}
+}
+
+
+
 ?>
 
 

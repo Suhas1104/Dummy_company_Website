@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+  }
+  .wrapper {
+ width: 100%;
+
+  }
+  header {
+   
+    height: 100vh;
+    width: 100%;
+  }
+nav{ 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  height: 100px;
+  z-index: 100;
+  transition: all 500ms ease;
+  background: #ffffff;
+}
+nav.scrolled {
+  background:#000000;
+  box-shadow: 0 16px 14px -4px rgb(255, 255, 255);
+  border-radius: 0 0 80px 80px;
+  padding: 20px;
+}
+nav ul {
+    display: flex;
+    margin-right: 113px;
+    align-items:right;
+    gap: 29px;
+    list-style: none;
+    margin-top: 10px;
+  }
+  nav ul li a {
+    font-family: 'JejuGothic';
+    font-weight: 400;
+    font-size: 30px;
+    color: #000000;
+    text-decoration: none;
+  }
+.sign img{
+  width: 99px;
+  height: 33px;
+  left: 1168px;
+}
+nav .logo img{
+  display: flex;
+  position: relative;
+  width: 105.56px;
+  height: 100px;
+  left: 45px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+nav p{
+  display: flex;
+position:fixed ;
+left: 180px;
+top: 15px;
+font-family: 'JejuGothic';
+font-weight: 400;
+font-size: 30px;
+color: #000000;
+}
+.herosec{
+    display: flex;
+    background-image: url(assets/aboutbg.png);
+    padding-top: 20px;
+    background-size: 100% 100vh;
+    background-repeat: no-repeat;
+    display: flex;
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+  
+  padding-top: 100px;
+
+    
+}
+.herosec p{
+   
+text-align:center ;
+  color: #FFF;
+margin-left: auto;
+margin-right: auto;
+font-size: 50px;
+font-family: Inter;
+font-weight: 800;
+}

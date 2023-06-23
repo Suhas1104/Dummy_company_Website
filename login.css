@@ -70,7 +70,7 @@ background:#008080
 .wrapper input{
     margin: 0;
     padding-top:5px;
-  padding-bottom:5px;
+    padding-bottom:5px;
     position: absolute;
     border-width: 3px;
     border-radius: 7px;
@@ -80,6 +80,7 @@ background:#008080
 }
 [type="submit"]:hover { background:#0cec2e; }
 [type="submit"]{
+  
     background: black;
     color: white;
 }
