@@ -59,4 +59,16 @@
           <p>Transforming businesses<br>
            through technology.
         </div>
+        <section class="mission">
+          
+          <p class="t" >Our Mission</p>
+          <hr></hr>
+          <p class="content">At X O Solutions, our mission is to empower businesses<br>
+          and organizations to thrive in the ever-evolving technological landscape.<br>
+           We are dedicated to providing exceptional consulting services,<br>
+            leveraging cutting-edge technologies and industry expertise to drive<br>
+            innovation and maximize value for our clients.</p>
               </header>
+              <script src="main.js"></script>
+</body>
+</html>

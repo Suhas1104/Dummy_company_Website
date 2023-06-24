@@ -39,8 +39,8 @@ nav{
   background: #ffffff;
 }
 nav.scrolled {
-  background:#000000;
-  box-shadow: 0 16px 14px -4px rgb(255, 255, 255);
+  background:#ffffff;
+  box-shadow: 0 16px 14px -18px rgb(255, 255, 255);
   border-radius: 0 0 80px 80px;
   padding: 20px;
 }
@@ -85,18 +85,13 @@ color: #000000;
 }
 .herosec{
     display: flex;
-    background-image: url(assets/aboutbg.png);
-    padding-top: 20px;
-    background-size: 100% 100vh;
-    background-repeat: no-repeat;
-    display: flex;
-  height: 100vh;
-  width: 100%;
-  align-items: center;
-  
-  padding-top: 100px;
-
     
+    background-image: url(assets/aboutbg.png);
+    background-size: 100% 100vh;
+    background-repeat: no-repeat; 
+     height: 100vh;
+    width: 100%;
+     align-items: center;  
 }
 .herosec p{
    
@@ -107,4 +102,37 @@ margin-right: auto;
 font-size: 50px;
 font-family: Inter;
 font-weight: 800;
+}
+section.mission{
+  width: 100%;
+  height: 364px;
+ 
+  
+}
+section.mission p.t{
+  color: #000;
+font-size: 30px;
+font-family: JejuGothic;
+  text-align: center;
+  margin-top: 5%;
+  position: relative;
+}
+section.mission p.content{
+  margin-top: 5%;
+  color: #000;
+
+font-size: 30px;
+font-family: JejuGothic;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+hr {
+  border: 0;
+ margin: auto;
+ 
+  width: 20%;               
+  background-color:#000000;
+  height: 1px;
 }

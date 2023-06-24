@@ -82,8 +82,8 @@ background:#008080
 [type="submit"]{
   
     background: black;
-    color: white;
     transition: all 0.7s;
+    color: white;
 }
 section.contact .right p{
   position: absolute;

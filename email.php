@@ -16,7 +16,7 @@ if($email!=NULL){
     else
     echo '<script>alert("failed")</script>';
 
-    header("refresh:2;url=index.html");
+    header("refresh:2;url=index.php");
 
 }
 

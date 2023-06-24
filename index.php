@@ -46,7 +46,7 @@
 
                 else:?>
 
-                <li> <a href="login.html" class="sign"><img src="assets/sign in.png"></a></li>
+                <li> <a href="login.html" class="sign"><img src="assets/signb.png"></a></li>
                 <?php
                 endif;
 
@@ -135,11 +135,11 @@
     <section class="contact">
       <div class="right">
         <p>We are always here for you!</p>
-    <form id="con" action="email.php" method="POST">      
+    <form id="con" action="email.php" method="POST" autocomplete="off">      
       <input name="name" type="text" class="feedback-input" placeholder="Name" />   <br>
       <input name="email" type="text" class="feedback-input" placeholder="Email" /><br>
       <textarea name="message" class="feedback-input" placeholder="Comment"></textarea><br>
-      <input type="submit" value="SUBMIT"/>
+      <input type="submit" value="SEND"/>
     </form>
     </div>
     
